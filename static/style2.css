@@ -1,0 +1,48 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.column{
+   
+    float: left;
+    text-align: center;
+    border: 3px solid gray;
+}
+p{
+    font-size: 16px;
+}
+.wotter{
+    height: 100vh;
+ 
+    background-size:cover;
+}
+/* bu telefon uchun */
+@media(max-width:768px){
+    .column{
+            width: 100%;
+            font-size: 20px;
+    }
+}
+/* bu planshet uchun */
+@media(min-width:769px)and(max-width:1023px){
+    .column{
+        width: 50%;
+    }
+}
+/* bu kompuyter uchun */
+@media(min-width:1024px){
+    .column{
+        width: 25%;
+        background-image:url("https://www.pexels.com/photo/road-nature-trees-branches-38537.jpg");
+    }
+}
+.about-banner{
+    background-image:url(../iwcha/foto-gory-voda.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.about-img{
+    margin-top: -80px;
+}
